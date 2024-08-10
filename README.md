@@ -8,10 +8,13 @@
 
 # The Goal
 - Take the theoretical concepts taught in classes and turn them into practical projects students can apply and use *themselves, now*.
+- Getting students involved in projects they can use throughout their time here at Wright State, as well as use alongside their future careers.
+- Hopefully this can help build our local ACM chapter's image up and get students to join as members too.
 - Homelabs are great learning environments.  By giving students the knowledge and skills needed to get started with their own homelabs, they can start learning on their own, in a safe environment.
 	- Students can learn a *lot* just by being able to *break* things (safely), then trying to figure out how to fix it.
 
 ## Example Applications
+> Most of the following are products I'm currently using *now*.  This means my biggest learning curve will be to translate from what I'm currently using into something I can teach to others.
 - **OpenWRT**
 	- Gives students hands-on experience with open-source networking on affordable devices.
 	- Wireshark, enabling secure remote access to home network
