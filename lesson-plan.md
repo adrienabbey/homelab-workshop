@@ -9,6 +9,8 @@
     - This means students will need both the hardware to run the server and a separate device to manage it.
     - This also means that students will need network access to that device.
     - Many headless servers do not offer easy WiFi configuration services.  This is further complicated by the fact that the university's network likely does not allow peer-to-peer communication between wireless devices.
+    - Ideal solution: network switches, with Ethernet connections for each device.  Additionally, a wireless access point which students can connect to that allows for communication between all devices connected.
+- Non-Proxmox distros.  I'll need to familiarize myself with KVM/Qemu on Ubuntu distributions.  All my experience is with Proxmox (and to a lesser degree, Hyper-V).
 
 ## Announcement Plans
 - BYOD, with old laptops available?
@@ -30,3 +32,14 @@
 - OSes: Proxmox (preferred), Ubuntu, others.
     - I'll need to clearly state that while anyone can install any distribution of their choice, I can only support those I'm familiar with (Debian derivatives mostly).
     - There may be other students in attendance who may be familiar with other distributions.
+
+## Day 2: Virtualization
+
+## Day 3: VM Templates, Ansible?
+
+## Day 4: Nextcloud
+
+## Day X: Networking
+- This is going to be complicated, and require a lot of planning and preparation to properly execute.
+- It's easy to forget just how nice it is to have full ownership and control over your own home network.
+- A key point to making a homelab *usable* outside your home is to have a secure VPN connection to your home network.
