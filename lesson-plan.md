@@ -4,6 +4,12 @@
     - Circumstances will change, the number of attendees will likely change over time, and their interests will likely determine what I teach.
 
 ## Sticking Points
+- Focus: should it be Proxmox?  Should I VPN?
+    - Half my plans hinge on Proxmox, which is a headless server.
+    - The other half of my plans hinge on having VPN access.
+    - My entire goal at first was to focus on making a *usable* homelab environment.  The fact that many students live on campus complicates these plans.
+    - A key point of a homelab, in my mind, is to be able to run services 24/7 that are accessible from anywhere.
+        - Running a desktop-focused distro without a VPN complicates this immensely.
 - Networking:
     - I like headless servers.  Proxmox is designed with this in mind, offering a web interface out of the box for system management.
     - This means students will need both the hardware to run the server and a separate device to manage it.
