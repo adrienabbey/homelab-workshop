@@ -80,6 +80,8 @@
 - Before I can schedule my first homelab workshop session, I need to finalize the following:
 	1. Hardware availability.
 		- Old laptops?  Not everyone will have devices they can bring.  I want to enable students to be able to learn everything, even if they won't be able to immediately apply what they learn.
+			- BIOS settings will need to be set/unlocked: USB boot, virtualization, Secure Boot
+			- Test install Proxmox to confirm?
 		- USB drives.  We need these for installation media.
 		- Monitors, keyboards, mice, power/network/video cables?  Many students might bring desktops without accessories.
 		- Networking devices?  Proxmox is headless by design, and does not readily support easy wireless connectivity out the box.
