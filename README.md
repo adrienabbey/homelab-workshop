@@ -66,3 +66,24 @@
 
 ## Student Skills
 - Ideally, this will target students who have finished CEG-2350 (OS Concepts and Usage), but I'm inclined to make this a soft recommendation rather than a hard requirement.  I learned all of this on my own, and feel that anyone properly motivated will be able to accomplish the same.
+
+# Next Steps
+- Before I can schedule my first homelab workshop session, I need to finalize the following:
+	1. Hardware availability.
+		- Old laptops?  Not everyone will have devices they can bring.  I want to enable students to be able to learn everything, even if they won't be able to immediately apply what they learn.
+		- USB drives.  We need these for installation media.
+		- Networking devices?  Proxmox is headless by design, and does not readily support easy wireless connectivity out the box.
+		- Server availability?  I like the idea of having a common server from which I can give students access to, preferably with campus VPN support.  Not required.  This might be a side project.
+	2. Networking availability.
+		- I want to be able to use low cost routers with OpenWRT support to enable connectivity between devices.
+		- While I have successfully connected a router to the university's wireless network without issue, I need to confirm that I'm not unintentionally or unknowingly violating some policy somewhere.
+	3. Room availability.
+		- We need a room for our regular meetings.
+		- Must have sufficient table space, power plugs, etc.
+		- Ideally, having a room which we can store hardware in would be nice, but not required.
+	4. Schedule availability.
+		- I've started collecting schedule availability from those who have already expressed an interest.
+		- Room availability should be confirmed with our meeting schedule.
+	5. Announcements and advertising.
+		- After confirming all the above, I need to have time to properly announce and advertise the workshop series.
+		- This includes Jumbotron ads, Discord announcements, and possibly email and professor's plugging it in relevant classes.
