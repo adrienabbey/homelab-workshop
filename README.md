@@ -86,6 +86,7 @@
 	2. Networking availability.
 		- I want to be able to use low cost routers with OpenWRT support to enable connectivity between devices.
 		- While I have successfully connected a router to the university's wireless network without issue, I need to confirm that I'm not unintentionally or unknowingly violating some policy somewhere.
+		- Test and document WiFi configuration on Proxmox in the terminal.  This is especially relevant for connecting to passwordless WiFi connections, which is not well documented.
 	3. Room availability.
 		- We need a room for our regular meetings.
 		- Must have sufficient table space, power plugs, etc.
