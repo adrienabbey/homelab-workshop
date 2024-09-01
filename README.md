@@ -81,6 +81,7 @@
 	1. Hardware availability.
 		- Old laptops?  Not everyone will have devices they can bring.  I want to enable students to be able to learn everything, even if they won't be able to immediately apply what they learn.
 		- USB drives.  We need these for installation media.
+		- Monitors, keyboards, mice, power/network/video cables?  Many students might bring desktops without accessories.
 		- Networking devices?  Proxmox is headless by design, and does not readily support easy wireless connectivity out the box.
 		- Server availability?  I like the idea of having a common server from which I can give students access to, preferably with campus VPN support.  Not required.  This might be a side project.
 	2. Networking availability.
