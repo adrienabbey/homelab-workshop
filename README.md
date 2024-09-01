@@ -97,6 +97,7 @@
 	5. Announcements and advertising.
 		- After confirming all the above, I need to have time to properly announce and advertise the workshop series.
 		- This includes Jumbotron ads, Discord announcements, and possibly email and professor's plugging it in relevant classes.
+		- I'm not sure how much time is *actually* required for Engage events.  As I understand it, I need to make the event on Engage, wait for approval (5 business days?) and then request a room (another 5 business days?) before I can actually announce it.  Or can I just skip most/all of that?  This makes planning and coordination very cumbersome!
 	6. Planning, testing, prep work.
 		- I need top put together a lesson plan of sorts.  This doesn't necessarily need to be super detailed or in-depth.  I'll likely wing a lot of this, adapting to the needs of those attending the workshops.  I want to focus on hands-on experiences, not lecture materials.
 		- I need to test the hardware and software I'm going to be using.  This involves applying everything I intend to discuss in workshops before the workshop happens, giving myself time to fix any problems I might run into ahead of time.
