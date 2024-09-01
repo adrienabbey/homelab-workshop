@@ -67,6 +67,15 @@
 ## Student Skills
 - Ideally, this will target students who have finished CEG-2350 (OS Concepts and Usage), but I'm inclined to make this a soft recommendation rather than a hard requirement.  I learned all of this on my own, and feel that anyone properly motivated will be able to accomplish the same.
 
+# Proof of Concept
+- I was able to quickly put together a proof-of-concept setup on campus.
+	- Router: I used an old Archer C7 v2 I had laying around.  I updated it to the newest version of OpenWRT, then connected it to the campus open WiFi.  This gave any connected devices Internet access.  Note: all my devices connected with cables for this.  I could easily enable a wireless AP on the router for other devices to connect to if needed.
+	- Laptop: I installed the newest version of Proxmox onto an old laptop I had laying around using a USB drive.  I also ran an `apt update` and `apt full-upgrade` on the device to confirm network functionality.  This also confirmed that I could quickly diagnose and fix the problems I ran into on-the-fly, and had a good idea of what I needed to include in my lesson plans.
+	- Connected to the Proxmox web interface from another laptop.  This confirmed that the network was functional, and that I could manage the hypervisor as intended.
+- Untested/unconfirmed:
+	- VPN: I have yet attempt to make a VPN server inside the campus network that accepts incoming connections from outside the campus network.  This may or may not require NAT port punching, if that is even possible.
+	- Peer-to-peer networking on campus WiFi: It may be possible for WiFi clients to connect to other WiFi clients on the campus network.  If this is possible, it could reduce or negate the need for our own networking devices.
+
 # Next Steps
 - Before I can schedule my first homelab workshop session, I need to finalize the following:
 	1. Hardware availability.
@@ -87,3 +96,6 @@
 	5. Announcements and advertising.
 		- After confirming all the above, I need to have time to properly announce and advertise the workshop series.
 		- This includes Jumbotron ads, Discord announcements, and possibly email and professor's plugging it in relevant classes.
+	6. Planning, testing, prep work.
+		- I need top put together a lesson plan of sorts.  This doesn't necessarily need to be super detailed or in-depth.  I'll likely wing a lot of this, adapting to the needs of those attending the workshops.  I want to focus on hands-on experiences, not lecture materials.
+		- I need to test the hardware and software I'm going to be using.  This involves applying everything I intend to discuss in workshops before the workshop happens, giving myself time to fix any problems I might run into ahead of time.
