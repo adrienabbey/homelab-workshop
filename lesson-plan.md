@@ -33,11 +33,43 @@
     - Secure Boot note: Many Linux distros do not support secure boot out of the box.  This may need to be disabled.
 
 ## Day 1: Introduction, Linux Installation
+- Preparation: 
+    - Prepare routers around the room to allow students to attach their devices to them (Ethernet and WiFi).
+    - Prepare USB flash drives for installation media.
 - The core of the homelab is going to be Linux and virtualization.  Linux servers are everywhere, and are excellent at what we're doing, with zero cost.  Win-win-win.
 - There's *many* ways to do a homelab.  I'm going to focus on what *I'm* familiar with, and adapt as needed.
 - OSes: Proxmox (preferred), Ubuntu, others.
     - I'll need to clearly state that while anyone can install any distribution of their choice, I can only support those I'm familiar with (Debian derivatives mostly).
     - There may be other students in attendance who may be familiar with other distributions.
+    - Point out that Proxmox is intended to run as a *headless* server.  This means it is designed to be managed by another device on the network using a web interface.
+        - That said, everything *can* be done from the command line.  I'm not too experienced with this, however.
+- Step 0: Warnings.
+    - This *will* result in data loss.  Backup, backup, backup.  Storage will get wiped.
+    - There are zero guarantees this will work flawlessly for everyone.  If it were easy, there would be far fewer IT jobs.  While Linux has matured a great deal, it's still behind Windows in hardware support.
+    - This includes any data on the USB flash drives!
+- Step 1: Hardware preparation.
+    - Connect devices.  Turn them on.
+- Step 2: BIOS/UEFI configuration.
+    - Common keys to enter BIOS setup include `DEL`, `F10`, and `F2`.
+    - Enable Virtualization.
+    - Enable boot from USB.
+    - Some BIOSes might need to enable the boot menu.
+    - Some Linux distros will require disabling Secure Boot.
+- Step 3: Installation media creation.
+    - Download distro of choice.
+    - Rufus is a great choice for Windows users.
+    - I'm going to assume that those already running Linux can figure out how to make installation media.
+    - Do the needful.
+- Step 4: Boot from USB, begin Installer.
+    - Common keys to select which device to boot from include `F12`.
+- Step 5: Installer options.
+    - Timezone: `Americas / New York`
+    - Encourage `ZFS`, as it is stable, modern, and enables snapshotting among other great features.
+    - *Be mindful of IP configuration*!  If the installer defaults to a static IP address, people at each table need to change the IP to something unique.
+        - Also be mindful that DNS did not automatically configure for my proof-of-concept.
+    - Ensure installation completes.
+- Step 6: Boot into new installation.
+    - Note that the device's IP and port will be listed after booting.
 
 ## Day 2: Virtualization
 
